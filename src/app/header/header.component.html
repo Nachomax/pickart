@@ -1,0 +1,36 @@
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<nav style="background-color:#004174; height:40px; opacity: 0.8;" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="index.html" [routerLink]='["/"]' ><img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Disqus_d_icon_official_-_white_on_transparent_background.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#" class="hvrcenter">Home</a></li>
+		        <li><a href="#" class="hvrcenter">Ranking</a></li>
+		        <li><a href="#" class="hvrcenter">Other</a></li>
+              </ul>
+              
+		    </div>
+         <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">14 <i class="fa fa-envelope"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">8 <i class="fa fa-eye"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">1 <i class="fa fa-bullhorn"></i></a>
+            </li>
+            <li class="nav-item avatar dropdown">
+                
+                <a [routerLink]="'/perfil'" class="nav-link " id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/22789021_1159848857480983_6834188753042831780_n.jpg?_nc_eui2=v1%3AAeE9_z-kDhuuQk-GgTnLyO2WT5LQRQe0vsC5Qo29UrhJ8DmNYdGC9f5LER6aP9jQ3ux42uh1Ufjcug7ZJSiN0a4UCIhaanayWTFiURWDMYswqA&oh=594de16ca628ac130bbb00d630c0689d&oe=5B024E7E" class="img-fluid rounded-circle z-depth-0" width="10"></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-purple" aria-labelledby="navbarDropdownMenuLink-5">
+                    <a class="dropdown-item whov" href="#"><i class="fa fa-plus"></i> Agregar post</a>
+                    <a class="dropdown-item whov" href="#"><i class="fa fa-edit"></i> Editar cuenta</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
